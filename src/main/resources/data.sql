@@ -1,0 +1,5 @@
+insert into Users values(101, 'vikaskaushal31@gmail.com', 0,'password')
+insert into Users values(102, 'kaushikkapoor1996@gmail.com', 0,'password1')
+insert into Users values(103, 'vikaskaushal32@gmail.com', 0,'password2')
+insert into Users values(104, 'vikaskaushal33@gmail.com', 0,'password3')
+insert into Users values(105, 'vikaskaushal34@gmail.com', 0,'password4')
