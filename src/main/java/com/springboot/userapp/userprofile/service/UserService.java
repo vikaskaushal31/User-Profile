@@ -28,6 +28,9 @@ public class UserService {
 		if (user == null) {
 			throw new Exception("User Not Registered");
 		}
+		if (user.isAccStatus() == false) {
+			throw new Exception("Account Deactivated");
+		}
 		user.setOtp(otp);
 		user.setExpierTime(now);
 		userRepository.save(user);

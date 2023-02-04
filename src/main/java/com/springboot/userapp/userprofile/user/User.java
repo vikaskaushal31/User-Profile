@@ -19,6 +19,15 @@ public class User {
 	private String password;
 	private int otp;
 	private LocalDateTime ExpierTime;
+	private boolean accStatus;
+
+	public boolean isAccStatus() {
+		return accStatus;
+	}
+
+	public void setAccStatus(boolean accStatus) {
+		this.accStatus = accStatus;
+	}
 
 	public LocalDateTime getExpierTime() {
 		return ExpierTime;
