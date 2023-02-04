@@ -1,5 +1,7 @@
 package com.springboot.userapp.userprofile.user;
 
+import java.time.LocalDateTime;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,6 +18,15 @@ public class User {
 	private String emailId;
 	private String password;
 	private int otp;
+	private LocalDateTime ExpierTime;
+
+	public LocalDateTime getExpierTime() {
+		return ExpierTime;
+	}
+
+	public void setExpierTime(LocalDateTime expierTime) {
+		ExpierTime = expierTime;
+	}
 
 	public User() {
 	}

@@ -20,6 +20,7 @@
 			<input type="button" value="Submit" onclick="submitForm()"> 
 			<input type="button" value="Send Otp" onclick="sendOtp()"> 
 			<input type="button" value="Validate Otp" onclick="validateOtp()">
+			<input type="button" value="Resend Otp" onclick="sendOtp()"> 
 	</form>
 </body>
 <script>
